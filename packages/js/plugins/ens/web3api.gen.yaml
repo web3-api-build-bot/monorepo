@@ -1,0 +1,4 @@
+codegen:
+  - schema: ./src/schema.graphql
+    templates: ./templates/schema-ts.mustache
+    output: ./src/schema.ts

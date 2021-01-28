@@ -1,0 +1,13 @@
+input (typeInfo) =>
+[
+  template,
+  functions,
+  output (logic?)
+]
+
+"object.mustache" -> "folder/this-file.rs"
+
+for (objects of typeinfo.importedObjects) {
+  addDirectory(...)
+  addFile(...)
+}
