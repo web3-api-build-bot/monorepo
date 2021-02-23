@@ -2,7 +2,7 @@ import path from "path";
 import {
   generateProject,
   shouldUseYarn,
-} from "../lib/generators/project-generator";
+} from "../../lib/generators/project-generator";
 
 const { filesystem } = require("gluegun");
 
